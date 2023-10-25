@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html dir="ltr">
+
+<head>
+    <title>HAM!DREZA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+        function darkModes() {
+
+            var element = document.body;
+            element.classList.add("light-mode");
+        }
+        function lightmode() {
+
+            var element = document.body;
+            element.classList.remove("light-mode");
+        }
+    </script>
+
+</head>
+
+<body>
+    <nav>
+        <ul id="navlist">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+            <li><a data-page="home" href="#home">Home</a></li>
+            <li><a href="#about" data-page="about">About</a></li>
+            <li data-page="projects"> <a href="#projects">Projects</a></li>
+            <li><a href="#tools" data-page="tools">Tools</a></li>
+        </ul>
+
+        <div id="mysign">
+            <i class="fa fa-ellipsis-h  dropbtn" onclick="myFunction()"></i>
+
+            <div id="myDropdown" class="dropdown-content">
+                <p>Theme</p>
+                <a onclick="darkModes()"> <i class='fas fa-sun'></i> LightMode</a>
+                <a onclick="lightmode()"><i class='fa fa-moon'></i>DarkMode</a>
+            </div>
+
+        </div>
+
+    </nav>
+    <main>
+
+        <div id="home">
+            <h1>Hello!</h1>
+            <p>
+                My name is</p>
+            <h1>
+                Hamidreza Eidy
+            </h1>
+        </div>
+        <div id="about" class="page">
+            <p>
+
+
+                I’m a front-end developer<br>
+                and I love all things tech.<br>
+                When I’m not knee-deep in code,<br>
+
+                I got my start in technology as a self-taught coder,<br>
+                and since then I’ve never looked back.<br>
+                I specialize in front-end development.<br>
+
+                I’m always looking for new challenges and opportunities,<br>
+                and I’m excited to see what the future h
+
+            </p>
+
+            <div id="socialmedia">
+                <i class="fa fa-telegram" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i class="fa fa-github" aria-hidden="true"></i>
+
+                <span>Email me</span>
+            </div>
+        </div>
+
+
+        <div id="projects" class="page">
+            <h6 class="textcenter">Featured projects</h6>
+            <p class="textcenter">
+                A collection of some side projects that have shipped recently
+            </p>
+            <div class="collectionitems">
+                <img src="./icons8-todo-list-100.png" alt="image">
+                <div class="detail">
+                    <h6>Todo App</h6>
+                    <p>A website for task management. Plans and notes</p>
+                    <p>Implemented with html, css, bootstrap, scss, javascript,<br> vue js and firebase</p>
+                    <i class="fa fa-github gitt" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="collectionitems">
+                <img src="./icons8-website-100.png" alt="image">
+                <div class="detail">
+                    <h6>Prrsonal Website</h6>
+                    <p>My Personal Website</p>
+                    <p>Implemented with html, css, bootstrap, javascript</p>
+                    <i class="fa fa-github gitt" aria-hidden="true"></i>
+
+                </div>
+            </div>
+            <div class="collectionitems">
+                <img src="./icons8-online-shop-1001.png" alt="image">
+                <div class="detail">
+                    <h6>Online Shop</h6>
+                    <p>A complete online shop</p>
+                    <p>Implemented with html, css, bootstrap, scss<br> javascript, nuxt js,
+                        type script, vue x and firebase</p>
+                    <i class="fa fa-github gitt" aria-hidden="true"></i>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="tools page" id="tools">
+            <h6>What I do</h6>
+            <div class="ds">
+                <div id="toolsitembox">
+                    <div class="toolsitem">
+                        <img src="./logo/icons8-html.svg" alt="html">
+                        <p>html</p>
+                    </div>
+                    <div class="toolsitem">
+                        <img src="./logo/icons8-css.svg" alt="css">
+                        <p>css</p>
+                    </div>
+                    <div class="toolsitem">
+                        <img src="./logo/icons8-bootstrap.svg" alt="bootstrap">
+                        <p>bootstrap</p>
+                    </div>
+                    <div class="toolsitem">
+                        <img src="./logo/icons8-sass.svg" alt="sass">
+                        <p>sass</p>
+                    </div>
+                    <div class="toolsitem">
+                        <img src="./logo/icons8-c-sharp-logo.svg" alt="c sharp">
+                        <p>c sharp</p>
+                    </div>
+
+
+                    <div class="toolsitem">
+                        <img src="./logo/icons8-firebase.svg" alt="firebase">
+                        <p>firebase</p>
+                    </div>
+                    <div class="toolsitem">
+                        <img src="./logo/icons8-github (1).svg" alt="github">
+                        <p>github</p>
+                    </div>
+                    <div class="toolsitem">
+                        <img src="./logo/icons8-javascript.svg" alt="java script">
+                        <p>java script</p>
+                    </div>
+                    <div class="toolsitem">
+                        <img src="./logo/icons8-nuxt-js.svg" alt="nuxt js">
+                        <p>nuxt js</p>
+                    </div>
+                    <div class="toolsitem">
+                        <img src="./logo/icons8-vue-js.svg" alt="vue js">
+                        <p>vue js</p>
+                    </div>
+
+                </div>
+            </div>
+            <p id="endp"> Implemented by Hamidreza Eidy</p>
+
+    </main>
+
+
+
+
+</body>
+
+</html>
