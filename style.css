@@ -198,17 +198,24 @@ main #about #socialmedia {
   align-items: center;
   margin: 40px 0px 60px 0px;
 }
-main #about #socialmedia i {
+main #about #socialmedia a {
   margin: 0px 5px;
-  font-size: 20px;
+  color: white;
+  font-size: 30px;
+}
+main #about #socialmedia #tlgrm {
+  font-size: 27px;
 }
 main #about #socialmedia span {
-  font-size: 15px;
   margin-left: 5px;
   font-weight: 900;
   background-color: #787777;
   border-radius: 3px;
   padding: 3px 7px;
+}
+main #about #socialmedia span a {
+  text-decoration: none;
+  font-size: 15px;
 }
 main #about #socialmedia span,
 main #about #socialmedia i:hover {
