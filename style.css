@@ -110,13 +110,19 @@ body {
 }
 
 .light-mode {
-  background-color: rgb(255, 255, 255) !important;
+  background-color: rgb(234, 233, 233) !important;
   color: black !important;
+}
+.light-mode .collectionitems i {
+  color: #030303;
 }
 .light-mode nav li a {
   color: #030303;
 }
 .light-mode nav #mysign i {
+  color: #030303;
+}
+.light-mode #socialmedia i {
   color: #030303;
 }
 
@@ -176,7 +182,7 @@ nav #mysign i {
 }
 
 main {
-  padding: 10vh 20vw 0vh 20vw;
+  padding: 5vh 20vw 0vh 20vw;
   height: fit-content;
 }
 main #home h1,
@@ -201,21 +207,21 @@ main #about #socialmedia {
 main #about #socialmedia a {
   margin: 0px 5px;
   color: white;
-  font-size: 30px;
+  font-size: 24px;
 }
 main #about #socialmedia #tlgrm {
-  font-size: 27px;
+  font-size: 20px;
 }
 main #about #socialmedia span {
   margin-left: 5px;
   font-weight: 900;
   background-color: #787777;
   border-radius: 3px;
-  padding: 3px 7px;
+  padding: 1px 5px;
 }
 main #about #socialmedia span a {
   text-decoration: none;
-  font-size: 15px;
+  font-size: 18px;
 }
 main #about #socialmedia span,
 main #about #socialmedia i:hover {
@@ -256,7 +262,7 @@ main #projects .collectionitems img {
 main #projects .collectionitems .gitt {
   position: absolute;
   right: 10px;
-  font-size: 30px !important;
+  font-size: 26px !important;
   bottom: 6px;
 }
 main #projects .collectionitems .gitt:hover {
@@ -265,11 +271,15 @@ main #projects .collectionitems .gitt:hover {
 main #projects .collectionitems .detail {
   padding: 6px 10px 6px 15px;
 }
+main #projects .collectionitems .detail a {
+  color: white;
+  text-decoration: none;
+}
 main #projects .collectionitems .detail h6 {
   font-size: 25px;
 }
 main #skills {
-  padding: 50px 0px 20px 0px;
+  padding-top: 50px;
 }
 main #skills h6 {
   font-size: 30px;
@@ -299,12 +309,6 @@ main #skills #toolsitembox .toolsitem img {
 #endp {
   margin-top: 15px;
   font-weight: 900;
-}
-
-.active {
-  background-color: rgb(67, 66, 66);
-  border-radius: 5px;
-  color: white;
 }
 
 #mysign i {
@@ -399,9 +403,6 @@ main #skills #toolsitembox .toolsitem img {
   }
   .toolsitem {
     flex: 30% !important;
-  }
-  #endp {
-    text-align: center;
   }
 }
 
