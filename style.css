@@ -268,6 +268,15 @@ main #projects .collectionitems .gitt {
 main #projects .collectionitems .gitt:hover {
   cursor: pointer;
 }
+main #projects .collectionitems .telev {
+  position: absolute;
+  right: 40px;
+  font-size: 24px !important;
+  bottom: 7px;
+}
+main #projects .collectionitems .telv:hover{
+  cursor: pointer;
+}
 main #projects .collectionitems .detail {
   padding: 6px 10px 6px 15px;
 }
