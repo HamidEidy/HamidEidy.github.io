@@ -107,8 +107,11 @@ body {
   line-height: 1;
   background-color: #030303;
   color: #fff;
+  font-family: monospace;
 }
-
+p{
+  font-size: 17px !important;
+}
 .light-mode {
   background-color: rgb(234, 233, 233) !important;
   color: black !important;
