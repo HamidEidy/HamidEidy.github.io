@@ -307,6 +307,9 @@ main #skills #toolsitembox {
   gap: 30px;
   padding: 20px 0px;
 }
+.lang{
+  border-bottom: 0 !important;
+}
 main #skills #toolsitembox .toolsitem {
   flex: 17%;
   background-color: rgba(67, 66, 66, 0.227);
@@ -375,7 +378,7 @@ main #skills #toolsitembox .toolsitem img {
 
 @media only screen and (max-width: 1200px) {
   main {
-    padding: 10vh 5vw;
+    padding: 10vh 5vw 0vh 5vw;
   }
   main #projects {
     text-align: center;
