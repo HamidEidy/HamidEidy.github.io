@@ -307,6 +307,13 @@ main #skills #toolsitembox {
   gap: 30px;
   padding: 20px 0px;
 }
+.hover:hover{
+  opacity: 0.8;
+}
+.toolsitem > p{
+  margin-top: 5px;
+  font-weight: bold;
+}
 .lang{
   border-bottom: 0 !important;
 }
